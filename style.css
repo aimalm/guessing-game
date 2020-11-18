@@ -1,0 +1,66 @@
+
+body{
+    padding-top: 100px;
+    background-color: #e3d5a1;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #e41d0f;
+    text-shadow: 2px 1px 6px rgba(235, 1, 1, 0.616);
+    text-align: center;
+    padding-bottom: 0px;
+    border-bottom: #1c941257 2px solid;
+    
+}
+h2{
+    color: white;
+    text-shadow: 2px 1px 6px rgba(235, 1, 1, 0.616);
+
+}
+
+
+form{
+    background-color: rgb(1, 30, 85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgb(235, 8, 8);
+    -moz-box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgb(233, 22, 22);
+    box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgb(228, 10, 10);
+}
+
+#button{
+
+    background-color: #87163c;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 30px;
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgba(0,0,0,1);
+    box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgba(0,0,0,1);
+}
+
+#button:hover{
+    background-color: #7ee741;
+    color: #ec7973;
+}
+
+#number{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 25px;
+    background-color: #e3d5a1;
+    color: #fc0f02;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+}
